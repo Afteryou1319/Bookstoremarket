@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Bookdata.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BooksDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CountBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Customer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainMenupage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OrderBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Bookdata.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BooksDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CountBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Customer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainMenupage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OrderBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

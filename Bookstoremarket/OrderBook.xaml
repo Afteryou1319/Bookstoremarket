@@ -1,0 +1,36 @@
+﻿<Window x:Class="Bookstoremarket.OrderBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bookstoremarket"
+        mc:Ignorable="d"
+        Title="สั่งซื้อหนังสือ" Height="450" Width="800">
+    <Grid Margin="10">
+        <!-- Label -->
+        <Label Content="กรอกเลข ISBN หนังสือ:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+
+        <!-- TextBox for ISBN Input -->
+        <TextBox Name="ISBNTextBox" Width="300" Height="30" FontSize="14"
+                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+
+        <!-- Search Button -->
+        <Button Content="ค้นหา" Width="100" Height="30" FontSize="14"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,50,0,0"
+                Click="SearchBook_Click"/>
+
+        <!-- DataGrid to Display Book Details -->
+        <DataGrid Name="BookDetailsGrid" AutoGenerateColumns="False" Margin="10,100,10,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ชื่อหนังสือ" Binding="{Binding Title}" Width="*"/>
+                <DataGridTextColumn Header="ผู้เขียน" Binding="{Binding Description}" Width="*"/>
+                <DataGridTextColumn Header="ราคา" Binding="{Binding Price}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Next Button -->
+        <Button Content="ดำเนินการต่อ" Width="150" Height="40" FontSize="16"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10"
+                Click="NextStep_Click"/>
+    </Grid>
+</Window>

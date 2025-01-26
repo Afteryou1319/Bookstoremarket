@@ -1,0 +1,28 @@
+﻿<Window x:Class="Bookstoremarket.Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bookstoremarket"
+        mc:Ignorable="d"
+        Title="Customer" Height="450" Width="800">
+    <Grid Margin="10">
+        <TextBlock Text="จัดการข้อมูลลูกค้า" FontSize="24" FontWeight="Bold" Foreground="#2c3e50" HorizontalAlignment="Center" />
+
+        <DataGrid x:Name="CustomerDataGrid" Margin="0,50,0,100" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50" />
+                <DataGridTextColumn Header="ชื่อ" Binding="{Binding Customer_Name}" Width="200" />
+                <DataGridTextColumn Header="ที่อยู่" Binding="{Binding Address}" Width="150" />
+                <DataGridTextColumn Header="อีเมล" Binding="{Binding Email}" Width="200" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" >
+            <Button Content="เพิ่มข้อมูล" Width="100" Click="AddCustomer_Click" />
+            <Button Content="ค้นหา" Width="100" Click="SearchCustomer_Click" />
+            <Button Content="แก้ไข" Width="100" Click="EditCustomer_Click" />
+            <Button Content="ลบ" Width="100" Click="DeleteCustomer_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

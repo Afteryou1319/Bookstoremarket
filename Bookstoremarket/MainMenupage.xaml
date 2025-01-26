@@ -1,0 +1,28 @@
+﻿<Window x:Class="Bookstoremarket.MainMenupage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bookstoremarket"
+        mc:Ignorable="d"
+        Title="MainMenupage" Height="450" Width="800">
+    <Grid>
+        <!-- Header -->
+        <TextBlock Text="MenuBookStore" FontSize="28" FontWeight="Bold" Foreground="#2c3e50" HorizontalAlignment="Center" Margin="0,20,0,0" />
+
+        <!-- Menu Buttons -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <!-- Customer Management -->
+
+            <!-- Book Management -->
+            <!-- Customer Management -->
+            <Button Content="จัดการข้อมูลลูกค้า" Width="300" Height="50" Margin="10" Background="#3498db" Foreground="White" FontSize="16" BorderThickness="0"  Click="CustomerManagement_Click"/>
+
+            <!-- Book Management -->
+            <Button Content="จัดการข้อมูลหนังสือ" Width="300" Height="50" Margin="10" Background="#2ecc71" Foreground="White" FontSize="16" BorderThickness="0"  Click="BookManagement_Click"/>
+
+            <!-- Order Books -->
+            <Button Content="สั่งซื้อหนังสือ" Width="300" Height="50" Margin="10" Background="#e74c3c" Foreground="White" FontSize="16" BorderThickness="0"  Click="OrderBooks_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
