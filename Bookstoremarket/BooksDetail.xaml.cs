@@ -44,9 +44,8 @@ namespace Bookstoremarket
         {
             if (!int.TryParse(price.Text, out int priceValue))
             {
-                // แสดงหน้าต่างแจ้งเตือน
                 MessageBox.Show("กรุณากรอกราคาให้เป็นตัวเลข", "ข้อผิดพลาด", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return; // ยุติการทำงานของเมธอด
+                return; 
             }
             Booklist.Title = namebook.Text;
             Booklist.Description = desbook.Text;

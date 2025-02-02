@@ -7,19 +7,15 @@
         mc:Ignorable="d"
         Title="สั่งซื้อหนังสือ" Height="450" Width="800">
     <Grid Margin="10">
-        <!-- Label -->
         <Label Content="กรอกเลข ISBN หนังสือ:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
 
-        <!-- TextBox for ISBN Input -->
         <TextBox Name="ISBNTextBox" Width="300" Height="30" FontSize="14"
                  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
 
-        <!-- Search Button -->
         <Button Content="ค้นหา" Width="100" Height="30" FontSize="14"
                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,50,0,0"
                 Click="SearchBook_Click"/>
 
-        <!-- DataGrid to Display Book Details -->
         <DataGrid Name="BookDetailsGrid" AutoGenerateColumns="False" Margin="10,100,10,10">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ชื่อหนังสือ" Binding="{Binding Title}" Width="*"/>
@@ -28,7 +24,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Next Button -->
         <Button Content="ดำเนินการต่อ" Width="150" Height="40" FontSize="16"
                 HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10"
                 Click="NextStep_Click"/>

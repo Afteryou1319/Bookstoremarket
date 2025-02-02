@@ -31,7 +31,7 @@ namespace Bookstoremarket
             if (int.TryParse(QuantityTextBox.Text, out int quantity) && quantity > 0)
             {
                 Quantity = quantity;
-                DialogResult = true; // Close window with success
+                DialogResult = true; 
             }
             else
             {

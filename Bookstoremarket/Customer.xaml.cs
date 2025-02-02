@@ -27,7 +27,6 @@ namespace Bookstoremarket
         {
             InitializeComponent();
             CustomersDatabase();
-            // ตัวอย่างข้อมูล
             //Customers.Add(new Customerdata { Id = 1, Name = "John Doe", Email = "john@example.com", Phone = "123456789" });
             //Customers.Add(new Customerdata { Id = 2, Name = "Jane Smith", Email = "jane@example.com", Phone = "987654321" });
 
@@ -198,7 +197,6 @@ namespace Bookstoremarket
         }
     }
 
-    // คลาสสำหรับข้อมูลลูกค้า
     public class Customerdata
     {
         public int Customer_Id { get; set; }

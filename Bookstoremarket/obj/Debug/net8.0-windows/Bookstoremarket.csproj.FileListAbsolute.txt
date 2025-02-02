@@ -50,3 +50,4 @@ C:\Users\Jao A\source\repos\Bookstoremarket\Bookstoremarket\obj\Debug\net8.0-win
 C:\Users\Jao A\source\repos\Bookstoremarket\Bookstoremarket\obj\Debug\net8.0-windows\CountBook.baml
 C:\Users\Jao A\source\repos\Bookstoremarket\Bookstoremarket\obj\Debug\net8.0-windows\OrderBook.baml
 C:\Users\Jao A\source\repos\Bookstoremarket\Bookstoremarket\obj\Debug\net8.0-windows\ReportBook.baml
+C:\Users\Jao A\source\repos\Bookstoremarket\Bookstoremarket\obj\Debug\net8.0-windows\Bookstoremarket.sourcelink.json

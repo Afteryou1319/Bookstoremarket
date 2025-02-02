@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\reportbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\reportbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\orderbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\orderbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\reportbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\reportbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\orderbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\orderbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\countbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\countbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\orderbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\orderbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\countbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\countbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\bookdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\bookdata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\reportbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\reportbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\reportbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\reportbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|c:\\users\\jao a\\source\\repos\\bookstoremarket\\bookstoremarket\\countbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5D5232-9694-4108-9DC9-87C82E44A1A9}|Bookstoremarket\\Bookstoremarket.csproj|solutionrelative:bookstoremarket\\countbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ReportBook.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\ReportBook.xaml.cs",
               "RelativeDocumentMoniker": "Bookstoremarket\\ReportBook.xaml.cs",
               "ToolTip": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\ReportBook.xaml.cs",
               "RelativeToolTip": "Bookstoremarket\\ReportBook.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwDcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvzoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T13:05:27.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ReportBook.xaml",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\ReportBook.xaml",
               "RelativeDocumentMoniker": "Bookstoremarket\\ReportBook.xaml",
@@ -71,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CountBook.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\CountBook.xaml.cs",
               "RelativeDocumentMoniker": "Bookstoremarket\\CountBook.xaml.cs",
@@ -84,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "CountBook.xaml",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\CountBook.xaml",
               "RelativeDocumentMoniker": "Bookstoremarket\\CountBook.xaml",
@@ -96,20 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OrderBook.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\OrderBook.xaml.cs",
               "RelativeDocumentMoniker": "Bookstoremarket\\OrderBook.xaml.cs",
               "ToolTip": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\OrderBook.xaml.cs",
               "RelativeToolTip": "Bookstoremarket\\OrderBook.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAnwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T16:24:12.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "OrderBook.xaml",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\OrderBook.xaml",
               "RelativeDocumentMoniker": "Bookstoremarket\\OrderBook.xaml",
@@ -121,26 +117,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Bookdata.xaml",
-              "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\Bookdata.xaml",
-              "RelativeDocumentMoniker": "Bookstoremarket\\Bookdata.xaml",
-              "ToolTip": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\Bookdata.xaml",
-              "RelativeToolTip": "Bookstoremarket\\Bookdata.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-12T06:58:12.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Customer.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\Customer.xaml.cs",
               "RelativeDocumentMoniker": "Bookstoremarket\\Customer.xaml.cs",
               "ToolTip": "C:\\Users\\Jao A\\source\\repos\\Bookstoremarket\\Bookstoremarket\\Customer.xaml.cs",
               "RelativeToolTip": "Bookstoremarket\\Customer.xaml.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAUwMwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T16:01:10.94Z"
+              "WhenOpened": "2024-11-24T16:01:10.94Z",
+              "EditorCaption": ""
             }
           ]
         }

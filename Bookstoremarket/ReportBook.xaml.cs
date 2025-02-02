@@ -36,12 +36,10 @@ namespace Bookstoremarket
 
             try
             {
-                // เชื่อมต่อฐานข้อมูล SQLite
                 using (var connection = new SQLiteConnection(connectionString))
                 {
                     connection.Open();
 
-                    // ดึงข้อมูลการสั่งซื้อจากรายการสรุป
                     var IdCustomer = OrderSummaryListBox.Items
                      .Cast<string>()
                      .FirstOrDefault(x => x.StartsWith("รหัสผู้ซื้อ"))
@@ -71,16 +69,14 @@ namespace Bookstoremarket
 
                     if (isbn != null && quantity != null && totalPrice != null)
                     {
-                        // แปลงข้อมูลให้อยู่ในรูปแบบที่ถูกต้อง
                         int parsedQuantity = int.Parse(quantity);
                         int parsedTotalPrice = int.Parse(totalPrice);
 
-                        // เพิ่มข้อมูลลงในตาราง Transactions
                         string query = "INSERT INTO Transactions (ISBN, Customer_Id, Quatity, Total_Price) VALUES (@ISBN, @CustomerId, @Quantity, @TotalPrice)";
                         using (var command = new SQLiteCommand(query, connection))
                         {
                             command.Parameters.AddWithValue("@ISBN", isbn);
-                            command.Parameters.AddWithValue("@CustomerId", IdCustomer); // ค่า Customer_Id (สามารถปรับตามระบบจริง)
+                            command.Parameters.AddWithValue("@CustomerId", IdCustomer); 
                             command.Parameters.AddWithValue("@Quantity", parsedQuantity);
                             command.Parameters.AddWithValue("@TotalPrice", parsedTotalPrice);
                             command.ExecuteNonQuery();
@@ -100,7 +96,7 @@ namespace Bookstoremarket
             }
             finally
             {
-                Close(); // ปิดหน้าต่างสรุปรายการ
+                Close();
             }
             
         }

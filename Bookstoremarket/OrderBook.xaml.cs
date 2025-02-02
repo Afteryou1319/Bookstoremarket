@@ -24,12 +24,11 @@ namespace Bookstoremarket
         public OrderBook()
         {
             InitializeComponent();
-            BookDetailsGrid.ItemsSource = Books; // Bind DataGrid to ObservableCollection
+            BookDetailsGrid.ItemsSource = Books; 
         }
         private string connectionString = @"Data Source=D:\base\Basestore.db;Version=3;";
         public ObservableCollection<Book> Books { get; set; } = new ObservableCollection<Book>();
 
-        // Search Button Click Event
         private void SearchBook_Click(object sender, RoutedEventArgs e)
         {
             string isbn = ISBNTextBox.Text;
@@ -40,7 +39,6 @@ namespace Bookstoremarket
                 {
                     connection.Open();
 
-                    // คำสั่ง SQL สำหรับค้นหาหนังสือจาก ISBN
                     string query = "SELECT Title, Description, Price FROM Books WHERE ISBN = @ISBN";
 
                     using (var command = new SQLiteCommand(query, connection))
@@ -51,7 +49,6 @@ namespace Bookstoremarket
                         {
                             if (reader.Read())
                             {
-                                // สร้าง Book จากข้อมูลที่ค้นพบ
                                 var book = new Book
                                 {
                                     ISBN = isbn,
@@ -60,13 +57,11 @@ namespace Bookstoremarket
                                     Price = reader.GetDecimal(2)
                                 };
 
-                                // ล้างข้อมูลเก่าและเพิ่มหนังสือที่ค้นพบ
                                 Books.Clear();
                                 Books.Add(book);
                             }
                             else
                             {
-                                // ถ้าไม่พบหนังสือ
                                 MessageBox.Show("ไม่พบหนังสือที่มีหมายเลข ISBN นี้", "ข้อผิดพลาด", MessageBoxButton.OK, MessageBoxImage.Warning);
                             }
                         }
@@ -75,7 +70,6 @@ namespace Bookstoremarket
             }
             else
             {
-                // กรณีไม่ได้กรอก ISBN
                 MessageBox.Show("กรุณากรอกเลข ISBN", "ข้อผิดพลาด", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
@@ -84,7 +78,7 @@ namespace Bookstoremarket
         {
             if (Books.Count > 0)
             {
-                var selectedBook = Books[0]; // Assuming single book selection for now
+                var selectedBook = Books[0]; 
 
                 var quantityWindow = new CountBook();
                 if (quantityWindow.ShowDialog() == true)
@@ -114,7 +108,6 @@ namespace Bookstoremarket
         }
     }
 
-    // Book Model
     public class Book
     {
         public string ISBN { get; set; }
